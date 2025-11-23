@@ -1,0 +1,28 @@
+# Web Scraping Configuration
+
+scraping:
+  # Delay between requests in seconds (be respectful!)
+  delay: 1
+  
+  # Request timeout in seconds
+  timeout: 10
+  
+  # User agent string
+  user_agent: "Mozilla/5.0 (compatible; WebScrapingSample/1.0; +https://github.com/bunnydevv/web-scraping-sample)"
+  
+  # Maximum retries for failed requests
+  max_retries: 3
+
+output:
+  # Output format: csv, json, or both
+  format: "both"
+  
+  # Output directory
+  directory: "data"
+
+logging:
+  # Logging level: DEBUG, INFO, WARNING, ERROR, CRITICAL
+  level: "INFO"
+  
+  # Log file name
+  file: "scraper.log"
